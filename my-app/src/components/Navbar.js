@@ -34,7 +34,7 @@ function Navbar() {
 
       <Flex align="center" >
         <Link>
-            <Heading as="h1" size="xl" textDecoration='none'>
+            <Heading to='/' as="h1" size="xl" textDecoration='none' color='#ff3f58'>
                 ninad dere
             </Heading>
         </Link>
