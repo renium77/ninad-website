@@ -7,9 +7,9 @@ function HeroAbout() {
         <div>
             <Container maxW='6xl' pt='50px'>
                 <Text fontSize={{base:'xl', md:'2xl'}}>
-                    hello! i’m <chakra.span fontWeight='bold'>ninad.</chakra.span> i’ve been building projects for a couple of years now
+                    hello! i’m <chakra.span fontWeight='bold' color='#ff3f58'>ninad.</chakra.span> i’ve been building projects for a couple of years now
                     and have had good success at some and have failed at many. previously i 
-                    co-founded a services company <Link><chakra.span fontWeight='bold'>Aegeon Tech.</chakra.span></Link>
+                    co-founded a services company <Link><chakra.span fontWeight='bold' color='#ff3f58'>Aegeon Tech.</chakra.span></Link>
                 </Text> 
 
                 <Text fontSize={{base:'xl', md:'2xl'}} pt='20px'>
@@ -23,7 +23,7 @@ function HeroAbout() {
                 </Text>
 
                 <Text fontSize={{base:'xl', md:'2xl'}} pt='20px'>
-                    my twitter is <Link fontWeight='bold'>ninadismyname</Link> and my e-mail is <Link fontWeight='bold'>dereninad@gmail.com.</Link>
+                    my twitter is <Link fontWeight='bold' color='#ff3f58'>ninadismyname</Link> and my e-mail is <Link fontWeight='bold' color='#ff3f58'>dereninad@gmail.com.</Link>
                 </Text>
 
                 <Divider borderColor='black' pt='20px'/>
