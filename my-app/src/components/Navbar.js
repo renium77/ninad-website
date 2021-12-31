@@ -62,7 +62,7 @@ function Navbar() {
                                         <DrawerHeader borderBottomWidth="1px"><Link  color="black" fontSize="lg">about</Link></DrawerHeader>
                                         <DrawerHeader borderBottomWidth="1px"><ReactLink to='/post'><Link  color="black" fontSize="lg">posts</Link></ReactLink></DrawerHeader>
                                         <DrawerHeader borderBottomWidth="1px"><Link  color="black" fontSize="lg">work</Link></DrawerHeader>
-                                        <DrawerHeader borderBottomWidth="1px"><Link  color="black" fontSize="lg">links</Link></DrawerHeader>
+                                        <DrawerHeader borderBottomWidth="1px"><ReactLink to='/links' color="black" fontSize="lg">links</ReactLink></DrawerHeader>
                                       </DrawerBody>
                                     </DrawerContent>
         </Drawer>
@@ -82,7 +82,7 @@ function Navbar() {
         <Button border='2px' borderRadius='20' fontSize="lg" bg='white' color="black" _hover={{bg:'black', color:'white'}}>about</Button>
         <Button border='2px' borderRadius='20' fontSize="lg" bg='white' color="black" _hover={{bg:'black', color:'white'}}><ReactLink to='/post'>posts</ReactLink></Button>
         <Button border='2px' borderRadius='20' fontSize="lg" bg='white' color="black" _hover={{bg:'black', color:'white'}}>work</Button>
-        <Button border='2px' borderRadius='20' fontSize="lg" bg='white' color="black" _hover={{bg:'black', color:'white'}}>links</Button>
+        <Button border='2px' borderRadius='20' fontSize="lg" bg='white' color="black" _hover={{bg:'black', color:'white'}}><ReactLink to='/links'>links</ReactLink></Button>
       </Stack>
       
 

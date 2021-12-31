@@ -6,7 +6,8 @@ import {
     Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, 
     UnorderedList,
     useDisclosure,
-    Text } from '@chakra-ui/react'
+    Text, 
+    Badge} from '@chakra-ui/react'
 import React from 'react'
 
 function ThirtySecondsOfFame() {
@@ -16,10 +17,13 @@ function ThirtySecondsOfFame() {
     return (
         <div>
           
-                <Container maxW='6xl'>
-                <Box pt='5'>
-                <Button variant='link' onClick={onOpen} colorScheme='black' fontSize='2xl'>30 seconds of fame ?</Button>
-                <Text>Feb 26, 2021</Text>
+                <Container maxW='6xl' p={1}>
+                <Box pt='5' bg='black' w={{base:'xs', md:'sm'}} p='5' borderRadius='xl' _hover={{cursor:'pointer'}}>
+                <Button variant='link' onClick={onOpen} color='white' fontSize='2xl'>30 seconds of fame ?</Button>
+                <Text color='white'>Feb 26, 2021</Text>
+                <Badge variant='outline' colorScheme='gray'>
+                    Speculation
+                </Badge>
                 </Box>
                 <Modal isOpen={isOpen} onClose={onClose} size='full'>
                     <ModalOverlay />
