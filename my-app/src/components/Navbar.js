@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Heading, Stack, Text, Flex, Link, Spacer } from '@chakra-ui/layout'
-import { Button, Menu, IconButton, extendTheme } from '@chakra-ui/react'
+import { Button, Menu, IconButton, extendTheme, VStack } from '@chakra-ui/react'
 import { AiOutlineMenu } from "react-icons/ai";
 import { useDisclosure } from '@chakra-ui/hooks';
 import { Drawer,DrawerContent, DrawerBody, DrawerOverlay, DrawerHeader } from '@chakra-ui/modal';
@@ -61,13 +61,28 @@ function Navbar() {
                                         <DrawerHeader borderBottomWidth="1px"><ReactLink to='/projects'><Link color="black" fontSize="lg">projects</Link></ReactLink></DrawerHeader>
                                         <DrawerHeader borderBottomWidth="1px"><Link  color="black" fontSize="lg">about</Link></DrawerHeader>
                                         <DrawerHeader borderBottomWidth="1px"><ReactLink to='/post'><Link  color="black" fontSize="lg">posts</Link></ReactLink></DrawerHeader>
-                                        <DrawerHeader borderBottomWidth="1px"><Link  color="black" fontSize="lg">work</Link></DrawerHeader>
+                                        <DrawerHeader borderBottomWidth="1px"><Link  color="black" fontSize="lg">brainboard</Link></DrawerHeader>
                                         <DrawerHeader borderBottomWidth="1px"><ReactLink to='/links' color="black" fontSize="lg">links</ReactLink></DrawerHeader>
                                       </DrawerBody>
                                     </DrawerContent>
         </Drawer>
         </Box>
         </Menu>
+        <VStack>
+      <Stack
+        direction={{ base: "column", md: "row" }}
+        display={{ base: "none", md: "inline-flex" }}
+        width={{ base: "full", md: "auto" }}
+        flexGrow={1}
+        mt={{ base: 4, md: 0 }}
+        justifyContent={'end'}
+        spacing={5}
+        border='black'
+      >
+        
+        <Button border='2px' borderRadius='20' fontSize="lg" bg='white' color="black" _hover={{bg:'black', color:'white'}}><ReactLink to='/projects'>projects</ReactLink></Button>
+        <Button border='2px' borderRadius='20' fontSize="lg" bg='white' color="black" _hover={{bg:'black', color:'white'}}>about</Button>
+      </Stack>
       <Stack
         direction={{ base: "column", md: "row" }}
         display={{ base: "none", md: "inline-flex" }}
@@ -78,12 +93,11 @@ function Navbar() {
         spacing={5}
         border='black'
       >
-        <Button border='2px' borderRadius='20' fontSize="lg" bg='white' color="black" _hover={{bg:'black', color:'white'}}><ReactLink to='/projects'>projects</ReactLink></Button>
-        <Button border='2px' borderRadius='20' fontSize="lg" bg='white' color="black" _hover={{bg:'black', color:'white'}}>about</Button>
         <Button border='2px' borderRadius='20' fontSize="lg" bg='white' color="black" _hover={{bg:'black', color:'white'}}><ReactLink to='/post'>posts</ReactLink></Button>
-        <Button border='2px' borderRadius='20' fontSize="lg" bg='white' color="black" _hover={{bg:'black', color:'white'}}>work</Button>
+        <Button border='2px' borderRadius='20' fontSize="lg" bg='white' color="black" _hover={{bg:'black', color:'white'}}>brainboard</Button>
         <Button border='2px' borderRadius='20' fontSize="lg" bg='white' color="black" _hover={{bg:'black', color:'white'}}><ReactLink to='/links'>links</ReactLink></Button>
       </Stack>
+      </VStack>
       
 
       
