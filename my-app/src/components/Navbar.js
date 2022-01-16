@@ -33,11 +33,13 @@ function Navbar() {
         >
 
       <Flex align="center" >
-        <Link>
-            <Heading to='/' as="h1" size="xl" textDecoration='none' color='#ff3f58'>
+        <ReactLink to='/hero'>
+          <Link>
+            <Heading as="h1" size="xl" textDecoration='none' color='#ff3f58'>
                 ninad dere
             </Heading>
-        </Link>
+            </Link>
+        </ReactLink>
       </Flex>
       <Spacer/>
 
@@ -59,7 +61,7 @@ function Navbar() {
                                     <DrawerContent>
                                       <DrawerBody>
                                         <DrawerHeader borderBottomWidth="1px"><ReactLink to='/projects'><Link color="black" fontSize="lg">projects</Link></ReactLink></DrawerHeader>
-                                        <DrawerHeader borderBottomWidth="1px"><Link  color="black" fontSize="lg">about</Link></DrawerHeader>
+                                        <DrawerHeader borderBottomWidth="1px"><ReactLink to='/nft'><Link  color="black" fontSize="lg">NFTs</Link></ReactLink></DrawerHeader>
                                         <DrawerHeader borderBottomWidth="1px"><ReactLink to='/post'><Link  color="black" fontSize="lg">posts</Link></ReactLink></DrawerHeader>
                                         <DrawerHeader borderBottomWidth="1px"><Link  color="black" fontSize="lg">brainboard</Link></DrawerHeader>
                                         <DrawerHeader borderBottomWidth="1px"><ReactLink to='/links' color="black" fontSize="lg">links</ReactLink></DrawerHeader>
@@ -81,7 +83,7 @@ function Navbar() {
       >
         
         <Button border='2px' borderRadius='20' fontSize="lg" bg='white' color="black" _hover={{bg:'black', color:'white'}}><ReactLink to='/projects'>projects</ReactLink></Button>
-        <Button border='2px' borderRadius='20' fontSize="lg" bg='white' color="black" _hover={{bg:'black', color:'white'}}>about</Button>
+        <Button border='2px' borderRadius='20' fontSize="lg" bg='white' color="black" _hover={{bg:'black', color:'white'}}><ReactLink to='/nft'>NFTs</ReactLink></Button>
       </Stack>
       <Stack
         direction={{ base: "column", md: "row" }}

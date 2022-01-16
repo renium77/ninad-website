@@ -1,5 +1,6 @@
 import { Box, Container, Link, SimpleGrid } from '@chakra-ui/react'
 import React from 'react'
+import Footer from './Footer'
 import ThirtySecondsOfSummer from './PostPages/ThirtySecondsOfFame'
 
 function Post() {
@@ -12,8 +13,10 @@ function Post() {
                 </Box>
 
                 <ThirtySecondsOfSummer/>
+                <ThirtySecondsOfSummer/><ThirtySecondsOfSummer/><ThirtySecondsOfSummer/>
                 
             </Container>
+            <Footer/>
         </div>
     )
 }

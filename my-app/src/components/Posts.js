@@ -1,5 +1,6 @@
 import { Box, Container, Link, SimpleGrid, Text } from '@chakra-ui/layout'
 import React from 'react'
+import Footer from './Footer'
 
 const post_links = [
     {

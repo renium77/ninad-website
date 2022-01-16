@@ -10,6 +10,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Projects from './components/Projects';
 import Post from './components/Post';
 import Links from './components/Links';
+import Nft from './components/Nft'
 
 function App() {
 
@@ -28,9 +29,11 @@ const theme = extendTheme({
           <Navbar/>
         <Routes>
           <Route path='/' element={<Hero/>}/>
+          <Route path='/hero' element={<Hero/>}/>
           <Route path='/projects' element={<Projects/>}/>
           <Route path='/post' element={<Post/>}/>
           <Route path='/links' element={<Links/>}/>
+          <Route path='/nft' element={<Nft/>}/>
         </Routes>
       </BrowserRouter>
     </ChakraProvider>

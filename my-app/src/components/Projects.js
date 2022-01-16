@@ -1,6 +1,7 @@
 import { Text } from '@chakra-ui/layout'
 import {Container, Box } from '@chakra-ui/react'
 import React from 'react'
+import Footer from './Footer'
 import ProjectCards from './ProjectCards'
 
 function Projects() {
@@ -14,6 +15,7 @@ function Projects() {
                 <ProjectCards/>
                 
             </Container>
+            <Footer/>
         </div>
     )
 }

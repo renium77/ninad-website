@@ -21,10 +21,10 @@ function Footer() {
                 pb='20px'
                     >
                         <Stack direction={'row'} spacing={6}>
-                            <Link><FaInstagram color='black' size='40px' /></Link>
-                            <Link><FaTwitter color='black' size='40px' /></Link>
+                            <Link href='https://www.instagram.com/ninaddere/'><FaInstagram  color='black' size='40px' /></Link>
+                            <Link href='https://twitter.com/ninadismyname'><FaTwitter color='black' size='40px' /></Link>
                             <Link><FaLinkedin color='black' size='40px' /></Link>
-                            <Link><FaGithub color='black' size='40px' /></Link>
+                            <Link href='https://github.com/renium77'><FaGithub color='black' size='40px' /></Link>
                         </Stack>
                     
 
