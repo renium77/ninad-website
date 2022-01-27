@@ -24,7 +24,7 @@ const post_links = [
 function Posts() {
     return (
         <div>
-            <Container maxW='6xl' pt='50px'>
+            <Container maxW='5xl' pt='50px'>
                 <Box bg='black'
                 color='white' 
                 fontSize={{base:'2xl', md:'3xl'}} 

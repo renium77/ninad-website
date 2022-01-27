@@ -71,20 +71,7 @@ function Navbar() {
         </Box>
         </Menu>
         <VStack>
-      <Stack
-        direction={{ base: "column", md: "row" }}
-        display={{ base: "none", md: "inline-flex" }}
-        width={{ base: "full", md: "auto" }}
-        flexGrow={1}
-        mt={{ base: 4, md: 0 }}
-        justifyContent={'end'}
-        spacing={5}
-        border='black'
-      >
-        
-        <Button border='2px' borderRadius='20' fontSize="lg" bg='white' color="black" _hover={{bg:'black', color:'white'}}><ReactLink to='/projects'>projects</ReactLink></Button>
-        <Button border='2px' borderRadius='20' fontSize="lg" bg='white' color="black" _hover={{bg:'black', color:'white'}}><ReactLink to='/nft'>NFTs</ReactLink></Button>
-      </Stack>
+      
       <Stack
         direction={{ base: "column", md: "row" }}
         display={{ base: "none", md: "inline-flex" }}
@@ -95,6 +82,8 @@ function Navbar() {
         spacing={5}
         border='black'
       >
+        <Button border='2px' borderRadius='20' fontSize="lg" bg='white' color="black" _hover={{bg:'black', color:'white'}}><ReactLink to='/projects'>projects</ReactLink></Button>
+        <Button border='2px' borderRadius='20' fontSize="lg" bg='white' color="black" _hover={{bg:'black', color:'white'}}><ReactLink to='/nft'>NFTs</ReactLink></Button>
         <Button border='2px' borderRadius='20' fontSize="lg" bg='white' color="black" _hover={{bg:'black', color:'white'}}><ReactLink to='/post'>posts</ReactLink></Button>
         <Button border='2px' borderRadius='20' fontSize="lg" bg='white' color="black" _hover={{bg:'black', color:'white'}}>brainboard</Button>
         <Button border='2px' borderRadius='20' fontSize="lg" bg='white' color="black" _hover={{bg:'black', color:'white'}}><ReactLink to='/links'>links</ReactLink></Button>
