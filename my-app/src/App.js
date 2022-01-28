@@ -6,7 +6,7 @@ import {
 } from '@chakra-ui/react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Projects from './components/Projects';
 import Post from './components/Post';
 import Links from './components/Links';
