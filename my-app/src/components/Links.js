@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Container, Link, Table, TableCaption, Tbody, Td, Tfoot, Th, Thead, Tr } from '@chakra-ui/react'
+import { Box, Container, Link, Table, TableCaption, Tbody, Td, Text, Tfoot, Th, Thead, Tr } from '@chakra-ui/react'
 import Footer from './Footer'
 
 
@@ -12,6 +12,7 @@ function Links() {
                     links
                 </Box>
                 <Table variant='striped' colorScheme='gray'>
+                    <TableCaption>[list of my faourite aritcles, videos, etc from the internet]</TableCaption>
             <Thead>
                 <Tr>
                 <Th>articles</Th>

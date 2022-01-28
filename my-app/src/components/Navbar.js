@@ -1,10 +1,9 @@
 import React from 'react'
-import { Box, Heading, Stack, Text, Flex, Link, Spacer } from '@chakra-ui/layout'
+import { Box, Heading, Stack, Flex, Link, Spacer } from '@chakra-ui/layout'
 import { Button, Menu, IconButton, extendTheme, VStack } from '@chakra-ui/react'
 import { AiOutlineMenu } from "react-icons/ai";
 import { useDisclosure } from '@chakra-ui/hooks';
 import { Drawer,DrawerContent, DrawerBody, DrawerOverlay, DrawerHeader } from '@chakra-ui/modal';
-import { FaGithub } from 'react-icons/fa';
 import {Link as ReactLink} from 'react-router-dom'
 
 function Navbar() {
@@ -61,10 +60,9 @@ function Navbar() {
                                     <DrawerContent>
                                       <DrawerBody>
                                         <DrawerHeader borderBottomWidth="1px"><ReactLink to='/projects'><Link color="black" fontSize="lg">projects</Link></ReactLink></DrawerHeader>
-                                        <DrawerHeader borderBottomWidth="1px"><ReactLink to='/nft'><Link  color="black" fontSize="lg">NFTs</Link></ReactLink></DrawerHeader>
                                         <DrawerHeader borderBottomWidth="1px"><ReactLink to='/post'><Link  color="black" fontSize="lg">posts</Link></ReactLink></DrawerHeader>
-                                        <DrawerHeader borderBottomWidth="1px"><Link  color="black" fontSize="lg">brainboard</Link></DrawerHeader>
-                                        <DrawerHeader borderBottomWidth="1px"><ReactLink to='/links' color="black" fontSize="lg">links</ReactLink></DrawerHeader>
+                                        <DrawerHeader borderBottomWidth="1px"><ReactLink to='/brainboard' color="black" fontSize="lg">brainboard</ReactLink></DrawerHeader>
+                                        <DrawerHeader borderBottomWidth="1px"><ReactLink to='/links' color="black" fontSize="lg">favourites</ReactLink></DrawerHeader>
                                       </DrawerBody>
                                     </DrawerContent>
         </Drawer>
@@ -83,10 +81,9 @@ function Navbar() {
         border='black'
       >
         <Button border='2px' borderRadius='20' fontSize="lg" bg='white' color="black" _hover={{bg:'black', color:'white'}}><ReactLink to='/projects'>projects</ReactLink></Button>
-        <Button border='2px' borderRadius='20' fontSize="lg" bg='white' color="black" _hover={{bg:'black', color:'white'}}><ReactLink to='/nft'>NFTs</ReactLink></Button>
         <Button border='2px' borderRadius='20' fontSize="lg" bg='white' color="black" _hover={{bg:'black', color:'white'}}><ReactLink to='/post'>posts</ReactLink></Button>
-        <Button border='2px' borderRadius='20' fontSize="lg" bg='white' color="black" _hover={{bg:'black', color:'white'}}>brainboard</Button>
-        <Button border='2px' borderRadius='20' fontSize="lg" bg='white' color="black" _hover={{bg:'black', color:'white'}}><ReactLink to='/links'>links</ReactLink></Button>
+        <Button border='2px' borderRadius='20' fontSize="lg" bg='white' color="black" _hover={{bg:'black', color:'white'}}><ReactLink to='/brainboard'>brainboard</ReactLink></Button>
+        <Button border='2px' borderRadius='20' fontSize="lg" bg='white' color="black" _hover={{bg:'black', color:'white'}}><ReactLink to='/links'>favourites</ReactLink></Button>
       </Stack>
       </VStack>
       

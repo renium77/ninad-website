@@ -11,6 +11,7 @@ import Projects from './components/Projects';
 import Post from './components/Post';
 import Links from './components/Links';
 import Nft from './components/Nft'
+import Brainboard from './components/Brainboard';
 
 function App() {
 
@@ -33,6 +34,7 @@ const theme = extendTheme({
           <Route path='/projects' element={<Projects/>}/>
           <Route path='/post' element={<Post/>}/>
           <Route path='/links' element={<Links/>}/>
+          <Route path='/brainboard' element={<Brainboard/>}/>
           <Route path='/nft' element={<Nft/>}/>
         </Routes>
       </BrowserRouter>
