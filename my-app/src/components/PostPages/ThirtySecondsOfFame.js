@@ -3,7 +3,7 @@ import {
     Button,
     Container, 
     ListItem, 
-    Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, 
+    Modal, ModalBody, ModalCloseButton, ModalContent, ModalHeader, ModalOverlay, 
     UnorderedList,
     useDisclosure,
     Text, 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Divider, Link, Text, Box } from '@chakra-ui/layout'
+import { Container, Link, Text, Box } from '@chakra-ui/layout'
 import { chakra } from '@chakra-ui/system'
 import { Tooltip } from '@chakra-ui/react'
 

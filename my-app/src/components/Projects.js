@@ -1,4 +1,3 @@
-import { Text } from '@chakra-ui/layout'
 import {Container, Box } from '@chakra-ui/react'
 import React from 'react'
 import Footer from './Footer'

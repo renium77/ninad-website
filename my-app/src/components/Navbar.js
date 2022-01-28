@@ -1,19 +1,12 @@
 import React from 'react'
 import { Box, Heading, Stack, Flex, Link, Spacer } from '@chakra-ui/layout'
-import { Button, Menu, IconButton, extendTheme, VStack } from '@chakra-ui/react'
+import { Button, Menu, IconButton, VStack } from '@chakra-ui/react'
 import { AiOutlineMenu } from "react-icons/ai";
 import { useDisclosure } from '@chakra-ui/hooks';
 import { Drawer,DrawerContent, DrawerBody, DrawerOverlay, DrawerHeader } from '@chakra-ui/modal';
 import {Link as ReactLink} from 'react-router-dom'
 
 function Navbar() {
-
-  const theme = extendTheme({
-  fonts: {
-    heading: "Montserrat",
-    body: "Montserrat",
-  },
-})
 
   const { isOpen, onOpen, onClose } = useDisclosure()
 

@@ -1,7 +1,6 @@
-import { Box, Container, Link, Stack, Text, SimpleGrid, Center } from '@chakra-ui/layout'
+import { Box, Container, Link, Stack, Text } from '@chakra-ui/layout'
 import React from 'react'
-import { FaGithub, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
-import {Button} from '@chakra-ui/react'
+import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa'
 
 
 function Footer() {

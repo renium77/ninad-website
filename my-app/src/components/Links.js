@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Container, Link, Table, TableCaption, Tbody, Td, Text, Tfoot, Th, Thead, Tr } from '@chakra-ui/react'
+import { Box, Container, Link, Table, TableCaption, Tbody, Td, Th, Thead, Tr } from '@chakra-ui/react'
 import Footer from './Footer'
 
 
