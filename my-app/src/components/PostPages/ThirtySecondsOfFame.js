@@ -2,9 +2,7 @@ import {
     Box,
     Button,
     Container, 
-    ListItem, 
-    Modal, ModalBody, ModalCloseButton, ModalContent, ModalHeader, ModalOverlay, 
-    UnorderedList,
+    Modal, ModalCloseButton, ModalContent, ModalHeader, ModalOverlay,
     useDisclosure,
     Text, 
     Badge} from '@chakra-ui/react'
@@ -31,19 +29,7 @@ function ThirtySecondsOfFame() {
                     <ModalHeader fontSize={{base:'xl', md:'2xl'}}>30 seconds of fame ?</ModalHeader>
                     <ModalCloseButton />
                     
-                    <ModalBody fontSize={{base:'lg', md:'xl'}}>
-                        To me, most concepts on the internet 🗺 seem to carry a hype behind them. It is essential for 
-                        the razzmatazz of the concept to achieve some fame. But this fame brings in a time limit with 
-                        itself, especially when people have time to dawdle (credits:corona-virus). With people not able 
-                        to socialize publicly, the internet came in as a saviour, but what happens when they return back to 
-                        being normal.India is yet to reach the point where the people are comfortable spending their whole 
-                        day on the internet. Success of concepts like Clubhouse, NFT, Gamestop saga are just the bi-product 
-                        of:
-                        <UnorderedList>
-                            <ListItem>Excess availability of time</ListItem>
-                            <ListItem>It seems cool being a part of such concept</ListItem>
-                        </UnorderedList>
-                    </ModalBody>
+                    ...
 
                     </ModalContent>
                 </Modal>
