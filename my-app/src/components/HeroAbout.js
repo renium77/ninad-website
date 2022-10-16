@@ -13,7 +13,7 @@ function HeroAbout() {
                 </Text> 
 
                 <Text fontSize={{base:'xl', md:'2xl'}} pt='20px'>
-                    i am a <chakra.span fontWeight='bold'>front-end devloper</chakra.span> and a <chakra.span fontWeight='bold'>designer.</chakra.span>
+                    i work as a PM at <chakra.span fontWeight='bold' color='#ff3f58'><Link href='https://www.reunionhq.in/'>reunion.</Link></chakra.span>
                 </Text> 
 
                 <Text fontSize={{base:'xl', md:'2xl'}} pt='20px'>
